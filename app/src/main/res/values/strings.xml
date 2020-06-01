@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">مرصاد</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_login">Mersad</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_username">نام کاربری</string>
+    <string name="prompt_address">نشانی</string>
+    <string name="prompt_city">شهر</string>
+    <string name="prompt_state">استان</string>
+    <string name="prompt_email">رایانامه</string>
+    <string name="action_sign_in">ورود</string>
+    <string name="prompt_password">کلمه عبور</string>
+    <string name="prompt_password_again">تکرار کلمه عبور</string>
+    <string name="prompt_password_match">کلمات عبور یکی نیستند</string>
+    <string name="action_sign_up">به ما بپیوندید</string>
+    <string name="action_sign_in_short">ورود</string>
+    <string name="error_invalid_email">رایانامه نامعتبر است</string>
+    <string name="error_invalid_password">کلمه عبور باید بیشتر از ۴ نویسه باشد</string>
+    <string name="error_incorrect_password">نام کاربری یا کلمه عبور اشتباه است</string>
+    <string name="error_field_required">وارد کردن این مورد الزامیست</string>
+    <string name="permission_rationale">"برای انجام ثبت نام از طریق ایمیل نیاز به دسترسی مخاطبان است"
+    </string>
+    <string name="title_activity_sign_up">Sign in</string>
+    <string name="action_sign_up_next_stage">مرحله بعد</string>
+    <string name="sign_up_first">مشخصات کاربری</string>
+    <string name="sign_up_second">محل سکونت</string>
+    <string name="sign_up_third">مشخصات فردی</string>
+    <string name="signup_benefactor">نیکوکار</string>
+    <string name="signup_needing">خیریه</string>
+    <string name="signup_city">شهر</string>
+    <string name="signup_province">استان</string>
+    <string name="female">جنسیت: زن</string>
+    <string name="male">جنسیت: مرد</string>
+    <string name="sex">جنسیت</string>
+    <string name="first_name">نام</string>
+    <string name="last_name">نام خانوادگی</string>
+    <string name="age">سن</string>
+    <string name="signup_submit">ثبت</string>
+    <string name="login_attempt">ورود به سایت</string>
+    <string name="signup_thanks">از این که در مرساد ثبت نام کردید متشکریم. برای استفاده از خدمات لطفا وارد شوید.</string>
+    <string name="title_activity_dashboard">پنل کاربری</string>
+    <string name="dashboard">داشبورد</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="search_naghdi">جستجوی نقدی</string>
+    <string name="search_nonaghdi"> جستجوی غیرنقدی</string>
+    <string name="search">جستجو</string>
+    <string name="reports">گزارشات</string>
+    <string name="ins_name">نام موسسه</string>
+    <string name="proj_name">نام پروژه یا قسمتی از آن</string>
+    <string name="proj_name_record">نام پروژه</string>
+    <string name="min_progress">حداقل پیشرفت</string>
+    <string name="max_progress">حداکثر پیشرفت</string>
+    <string name="max_deadline">حداکثر ددلاین</string>
+    <string name="min_deadline">حداقل ددلاین</string>
+    <string name="daytime">بازه زمانی</string>
+    <string name="weekday">روز هفته</string>
+    <string name="skill_selection">توانمندی ها:</string>
+    <string name="tags">برچسب ها</string>
+    <string name="results">نتایج</string>
+
+    <string name="profile"> نمایه </string>
+    <string name="myprojects"> پروژه های من </string>
+    <string name="events"> رویداد ها </string>
+
+
+    <string-array name="weekdays">
+        <item>شنبه</item>
+        <item>یکشنبه</item>
+        <item>دوشنبه</item>
+        <item>سه شنبه</item>
+        <item>چهارشنبه</item>
+        <item>پنج شنبه</item>
+        <item>جمعه</item>
+    </string-array>
+    <string-array name="daytimes">
+        <item>صبح</item>
+        <item>ظهر</item>
+        <item>عصر</item>
+        <item>شب</item>
+    </string-array>
+    <string name="title_activity_profile">@string/profile</string>
+    <string name="profile_changes">اعمال تغییرات</string>
+    <string name="logout">خروج</string>
+    <string name="home">خانه</string>
+    <string name="title_activity_events">@string/events</string>
+    <string name="date">تاریخ</string>
+    <string name="descriptions">توضیحات</string>
+    <string name="title_activity_my_projects">@string/myprojects</string>
+    <string name="error_connection">ارتباط با سرور برقرار نیست</string>
+    <string name="impose_schedule">تاثیر برنامه هفتگی خود</string>
+    <string name="phone">تلفن</string>
+    <string name="postalcode">کدپستی</string>
+    <string name="error_taken_username">نام کاربری قبلا توسط سایر کاربران گرفته شده است</string>
+    <string name="status">وضعیت</string>
+
+
+</resources>

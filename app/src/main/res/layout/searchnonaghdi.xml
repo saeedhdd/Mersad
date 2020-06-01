@@ -1,0 +1,244 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.example.hd.mersad.LoginActivity"
+    android:background="@mipmap/bodybg">
+    <!--android:paddingBottom="@dimen/activity_vertical_margin"-->
+    <!--android:paddingLeft="@dimen/activity_horizontal_margin"-->
+    <!--android:paddingRight="@dimen/activity_horizontal_margin"-->
+    <!--android:paddingTop="@dimen/activity_vertical_margin"-->
+
+
+
+    <ScrollView
+        android:id="@+id/search_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp"
+        >
+
+        <LinearLayout
+            android:id="@+id/search_form"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:weightSum="1"
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/mylinearlayout"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp"
+                android:paddingBottom="30dp"
+                android:paddingTop="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="10dp"
+                android:weightSum="1"
+
+                >
+
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/tags"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/skill_selection"
+                        android:maxLines="1"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textStyle="bold"
+
+                        android:singleLine="true" />
+
+                </android.support.design.widget.TextInputLayout>
+
+
+                    <!--android:imeActionId="@+id/login"-->
+                    <!--android:imeActionLabel="@string/prompt_password"-->
+                    <!--android:imeOptions="actionUnspecified"-->
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="20dp"
+                    >
+
+
+                    <!--<Spinner-->
+                    <!--android:id="@+id/weekday"-->
+                    <!--android:layout_weight="1.4"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:textColor="@color/colorPrimaryDark"-->
+                    <!--android:textSize="12sp"-->
+                    <!--android:entries="@array/weekdays"-->
+                    <!--android:spinnerMode="dialog"-->
+                    <!--/>-->
+
+
+
+                    <!--<Spinner-->
+                    <!--android:id="@+id/daytime"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:maxLines="1"-->
+                    <!--android:textColor="@color/colorPrimaryDark"-->
+                    <!--android:textSize="12sp"-->
+                    <!--android:entries="@array/daytimes"-->
+                    <!--android:spinnerMode="dialog"-->
+
+                    <!--android:singleLine="true" />-->
+                    <!--</LinearLayout>-->
+
+                    <Switch
+                        android:id="@+id/impose_schedule"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:text="@string/impose_schedule"
+                        android:textAlignment="center"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    >
+
+                    <Spinner
+                        android:id="@+id/skill_select"
+                        android:layout_height="wrap_content"
+                        android:layout_width="0dp"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textStyle="bold"
+                        android:textSize="12sp"
+                        android:layout_weight="2"
+                        android:spinnerMode="dialog"
+                        />
+
+                    <TextView
+                            android:id="@+id/textview_weekday"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+
+                            android:layout_height="wrap_content"
+                            android:text="@string/tags"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textStyle="bold"
+                            android:gravity="right"
+
+                            />
+
+
+
+
+
+                </LinearLayout>
+
+
+                <Button
+                    android:id="@+id/search_gh_naghdi_button"
+                    style="?android:textAppearanceSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textColor="@color/colorAccent"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/search"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:background="@drawable/mybutton"
+                    android:layout_weight="9.66"
+
+                    />
+            </LinearLayout>
+
+            <TableLayout
+                android:id="@+id/gh_naghdi_search_table"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="80dp"
+
+                >
+
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:textSize="10sp"
+                    >
+
+                    <TextView
+                        android:id="@+id/day_record_search_naghdi"
+                        android:fontFamily="serif"
+                        android:textAlignment="center"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:textColor="#000"
+                        android:text="@string/daytime"/>
+                    <TextView
+                        android:id="@+id/tag_record"
+                        android:textColor="#000"
+                        android:textAlignment="center"
+                        android:fontFamily="serif"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:text="@string/tags"/>
+                    <TextView
+                        android:textColor="#000"
+                        android:id="@+id/inst_name_record"
+                        android:textAlignment="center"
+                        android:fontFamily="serif"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:text="@string/ins_name"/>
+                    <TextView
+                        android:textColor="#000"
+                        android:id="@+id/proj_name_record"
+                        android:fontFamily="serif"
+                        android:textAlignment="center"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:text="@string/proj_name_record"/>
+
+                </TableRow>
+                <View
+                    android:layout_height="3dip"
+                    android:layout_width="match_parent"
+                    android:background="@color/colorAccent"/>
+            </TableLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

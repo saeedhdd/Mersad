@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/parentLayout"
+    android:background="@mipmap/bodybg"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="-40dp"
+        android:layout_gravity = "center_vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+
+            >
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/layoutondashboard"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:tag="1"
+                android:onClick="transit"
+
+
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:src="@android:drawable/ic_menu_edit"
+                    android:layout_gravity="center"
+                    android:layout_weight="2.5"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:gravity="center"
+                    android:text="@string/profile"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="18sp"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="10dp"
+                    android:id="@+id/profButton"
+
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/layoutondashboard"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:tag="2"
+                android:onClick="transit"
+
+
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:src="@android:drawable/ic_menu_my_calendar"
+                    android:layout_gravity="center"
+                    android:layout_weight="2.5"
+                    android:padding="10dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:gravity="center"
+                    android:text="@string/events"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="18sp"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="10dp"
+                    android:id="@+id/eventButton"
+
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+
+            >
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/layoutondashboard"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:tag="3"
+                android:onClick="transit"
+
+
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:src="@android:drawable/ic_menu_slideshow"
+                    android:layout_gravity="center"
+                    android:layout_weight="2.5"
+                    android:padding="10dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:gravity="center"
+                    android:text="@string/myprojects"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="18sp"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="10dp"
+                    android:id="@+id/myProjButton"
+
+
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/layoutondashboard"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:tag="4"
+                android:onClick="transit"
+
+
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:src="@android:drawable/ic_menu_close_clear_cancel"
+                    android:layout_gravity="center"
+                    android:layout_weight="2.5"
+                    android:padding="10dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:gravity="center"
+                    android:text="@string/logout"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="18sp"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="10dp"
+                    android:id="@+id/logoutButton"
+
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

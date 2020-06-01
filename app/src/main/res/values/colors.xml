@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#04a694</color>
+    <color name="ButtonColor">#0affffff</color>
+    <color name="SelectedButton">@color/colorPrimary</color>
+    <color name="colorPrimaryDark">#1f5016</color>
+    <color name="background">#91b487</color>
+    <color name="colorAccent">#e0e083</color>
+
+    <color name="deactivated">#001a580b</color>
+    <color name="active">@color/colorPrimary</color>
+    <color name="black_overlay">#25000000</color>
+</resources>
